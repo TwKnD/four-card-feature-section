@@ -96,7 +96,7 @@ p {
 /* Desktop View */
 @media (min-width:800px) {
   body {
-    padding: 10%;
+    padding: 5% 10%;
   }
   .container {
     grid-template-columns: repeat(3, 1fr)
