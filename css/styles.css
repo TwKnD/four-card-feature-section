@@ -17,21 +17,11 @@ body {
   text-align: center;
 }
 
-h3 {
-  font-weight: 200;
-}
-
 p {
   color: var(--grayish-blue);
+  margin-bottom: 50px;
 }
 
-.header {
-  color: var(--dark-blue);
-}
-.box {
-  box-shadow: 0px 8px 18px hsl(229, 6%, 66%);
-
-}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -40,3 +30,52 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Grid */
+.container {
+  display: grid;
+  grid-column: 1fr;
+  margin-top: 50px;
+}
+
+/* Headers */
+.header {
+  color: var(--dark-blue);
+  margin: 0;
+}
+
+.main-header {
+  font-size: 1.5rem;
+}
+
+.desc-header {
+  font-weight: 200;
+}
+
+/* Boxes */
+.box {
+  box-shadow: 0px 5px 20px var(--grayish-blue);
+  text-align: left;
+  border-radius: 10px;
+  padding: 1.5rem;
+  border-top: 4px solid;
+  margin-bottom: 25px;
+}
+
+.box-1 {
+  border-top-color: var(--cyan);
+}
+
+.box-2 {
+  border-top-color: var(--red);
+}
+
+.box-3 {
+  border-top-color: var(--orange);
+}
+
+.box-4 {
+  border-top-color: var(--blue);
+}
+
+.icon {}
