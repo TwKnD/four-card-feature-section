@@ -95,7 +95,7 @@ p {
 
 /* Desktop View */
 @media (min-width:800px) {
-  .body {
+  body {
     padding: 10%;
   }
   .container {
