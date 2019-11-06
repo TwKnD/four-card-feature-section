@@ -43,7 +43,6 @@ p {
 /* Headers */
 .header-container {
   max-width: 500px;
-  position: relative;
   margin: 0 auto;
 }
 .header {
