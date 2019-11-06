@@ -9,12 +9,29 @@
   --grayish-blue: hsl(229, 6%, 66%);
 }
 
-/* html styles */
+/* Main Styles */
 body {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
+  padding: 10%;
+  text-align: center;
 }
 
+h3 {
+  font-weight: 200;
+}
+
+p {
+  color: var(--grayish-blue);
+}
+
+.header {
+  color: var(--dark-blue);
+}
+.box {
+  box-shadow: 0px 8px 18px hsl(229, 6%, 66%);
+
+}
 .attribution {
   font-size: 11px;
   text-align: center;
