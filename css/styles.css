@@ -40,13 +40,16 @@ p {
 }
 
 /* Headers */
+header {
+  max-width: 500px;
+}
 .header {
   color: var(--dark-blue);
   margin: 0;
 }
 
 .main-header {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .desc-header {
