@@ -35,7 +35,7 @@ p {
 .container {
   display: grid;
   grid-column: 1fr;
-  margin-top: 50px;
+  margin: 100px 0;
 }
 
 /* Headers */
@@ -78,4 +78,6 @@ p {
   border-top-color: var(--blue);
 }
 
-.icon {}
+.icon {
+    float: right;
+}
