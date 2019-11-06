@@ -13,7 +13,7 @@
 body {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  padding: 10%;
+  padding: 5%;
   text-align: center;
 }
 
@@ -40,8 +40,8 @@ p {
 }
 
 /* Headers */
-header {
-  max-width: 500px;
+.header-container {
+  max-width: 400px;
 }
 .header {
   color: var(--dark-blue);
