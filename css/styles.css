@@ -70,7 +70,6 @@ p {
   border-radius: 10px;
   padding: 1.5rem;
   border-top: 4px solid;
-  align-self: center;
 }
 
 .box-1 {
@@ -93,8 +92,18 @@ p {
   float: right;
 }
 
+/* Tablet View */
+@media (min-width: 600px) {
+  .container {
+    grid-template-columns: 2fr 2fr;
+  }
+  .box {
+    align-self: auto;
+  }
+}
+
 /* Desktop View */
-@media (min-width:800px) {
+@media (min-width: 1200px) {
   body {
     padding: 5% 10%;
   }
@@ -104,6 +113,7 @@ p {
 
   .box {
     max-height: 300px;
+    align-self: center;
   }
 
   .box-1 {
@@ -127,4 +137,5 @@ p {
   .main-header {
     font-size: 2.5rem;
   }
+
 }
