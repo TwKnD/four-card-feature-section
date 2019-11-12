@@ -100,6 +100,9 @@ p {
   .box {
     align-self: auto;
   }
+  .main-header {
+    font-size: 2.2rem;
+  }
 }
 
 /* Desktop View */
